@@ -1,0 +1,90 @@
+#home-page {
+  #header-bottom {
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .huge-text {
+      padding: 240px;
+      padding-bottom: 400px;
+      text-align: center;
+      h1 {
+        color: white;
+        font-size: 72px;
+        span {
+          background-color: #ffb606;
+        }
+      }
+    }
+  }
+  .courses {
+    div {
+      h1 {
+      }
+    }
+    .cards-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      .card {
+        width: 30%;
+        div {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .course-search {
+    div {
+      display: flex;
+      .left {
+        background-color: #ffb606;
+        width: 50%;
+        padding-top: 156px;
+        padding-bottom: 161px;
+        display: flex;
+        justify-content: center;
+        .left-content {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          max-width: 522px;
+        }
+      }
+      .right {
+        background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 50%;
+        padding-top: 156px;
+        padding-bottom: 161px;
+        display: flex;
+
+        justify-content: center;
+        .right-content {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          form {
+            width: 522px;
+            display: flex;
+            flex-direction: column;
+            input {
+              margin-bottom: 25px;
+              padding: 10px 30px;
+            }
+            button {
+              background-color: #ffb606;
+              border: none;
+              padding: 10px 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

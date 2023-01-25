@@ -1,0 +1,52 @@
+header {
+  // background-color: white;
+  #header-top {
+    display: flex;
+    justify-content: center;
+    .container {
+      margin-top: 20px;
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      .site-logo {
+        margin-left: 50px;
+        align-items: center;
+        display: flex;
+        .site-img {
+          img {
+            padding: 20px;
+          }
+        }
+        h1 {
+        }
+      }
+      nav {
+        ul {
+          display: flex;
+          gap: 30px;
+        }
+      }
+      .contact {
+        margin-left: 30px;
+        background-color: #ffb606;
+        div {
+          padding: 15px;
+          align-items: center;
+          display: flex;
+          .contact-image {
+            img {
+              width: 20px;
+            }
+          }
+          h2 {
+            color: white;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+}
